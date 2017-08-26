@@ -39,7 +39,8 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.myNewsViewHold
     Context context;
     Activity activity;
     Top t = new Top();
-    NewsAdapter(Context context, Activity activity,JSONArray articles){
+
+    public NewsAdapter(Context context, Activity activity, JSONArray articles){
         this.articles = articles;
         this.context = context;
         this.activity = activity;
